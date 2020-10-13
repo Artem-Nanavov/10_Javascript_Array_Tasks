@@ -9,6 +9,6 @@
  */
 const fill = (arraySize, value) => Array(arraySize).fill(value);
 
-const data = 32;
-const valueToFill = 123;
+const data = 'a';
+const valueToFill = 3;
 console.log(fill(data, valueToFill)); // ['a', 'a', 'a']
